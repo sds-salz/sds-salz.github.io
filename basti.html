@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDS_Basti - Offizielle inoffizielle Seite</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .info-section {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .info-section p {
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .info-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .twitch-link {
+            display: block;
+            text-align: center;
+            background: #9146ff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(145, 70, 255, 0.4);
+        }
+
+        .twitch-link:hover {
+            background: #7c3aed;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(145, 70, 255, 0.6);
+        }
+
+        .emoji {
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 SDS_Basti</h1>
+        <p class="subtitle">Offizielle inoffizielle Seite</p>
+        
+        <div class="info-section">
+            <p><span class="emoji">🎬</span><strong>Über SDS_Basti:</strong></p>
+            <p>SDS_Basti ist ein Twitch-Streamer, eine Salz-Fabrik und ein Schüler.</p>
+            <p><span class="emoji">📍</span>Wohnort: B******</p>
+        </div>
+
+        <div class="info-section warning">
+            <p><span class="emoji">⚠️</span><strong>Hinweis:</strong></p>
+            <p>An einem zufälligen Tag im Jahr 2026 hat er on-stream das N-Wort gesagt, worauf er eine Verwarnung von Twitch erhalten hat.</p>
+        </div>
+
+        <a href="https://twitch.tv/SDS_Basti" class="twitch-link" target="_blank">
+            🎥 Besuche den Twitch-Kanal
+        </a>
+    </div>
+</body>
+</html>
