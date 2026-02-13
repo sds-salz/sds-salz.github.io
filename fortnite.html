@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Pro - SDS_Basti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #f5576c;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .info-section {
+            background: #f8f9fa;
+            border-left: 4px solid #f5576c;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .info-section p {
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .info-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .fun-fact {
+            background: #d4edda;
+            border-left-color: #28a745;
+            color: #155724;
+        }
+
+        .haters {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+            color: #721c24;
+        }
+
+        .back-link {
+            display: inline-block;
+            text-align: center;
+            background: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+
+        .emoji {
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+
+        .salt-animation {
+            text-align: center;
+            font-size: 3em;
+            margin: 20px 0;
+            animation: shake 2s infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-5deg); }
+            75% { transform: rotate(5deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fortnite Karriere</h1>
+        <p class="subtitle">Basti - ein berühmter Fortnite Spieler?</p>
+        
+        <div class="salt-animation">🔫</div>
+
+        <div class="info-section">
+            <p><span class="emoji">🔫</span><strong>Allgemeines:</strong></p>
+            <p>Da Basti ein Fortnite Streamer mit über 25 Followern ist,</p>
+            <p>könnte man meinen er wäre ein guter Spieler</p>
+        </div>
+
+        <div class="info-section haters">
+            <p><span class="emoji">🙄</span><strong>Was die Hater sagen:</strong></p>
+            <p>Hater sagen er spielt das Spiel Pay - to - win</p>
+            <p>Aber wir alle wissen, das er so oder so kein guter Spieler ist.</p>
+        </div>
+
+        <div class="info-section fun-fact">
+            <p><span class="emoji">💰</span><strong>Fun Fact:</strong></p>
+            <p>SDS_Basti spielte einst Fortnite auf der Nintendo Switch und wollt an ihr eine Tastatur und eine Maus haben.</p>
+            <p>Damals war er noch viel besser und durch den Switch auf eine Bessere Maschine hat er all seinen Skill verlohren und Quadratsch muss jede Runde carryen.</p>
+        </div>
+
+        <a href="/" class="back-link">← Zurück zur Startseite</a>
+    </div>
+</body>
+</html>
